@@ -1,0 +1,61 @@
+/* common styles */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* end of common styles */
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.red {
+    background-color: red;
+    display: none;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+.aqua{
+    background-color: aqua;
+}
+
+.btn {
+    width: 21rem;
+    padding: 1.2rem 2rem;
+    font-size: 2rem;
+    color: #fff;
+    letter-spacing: .1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    animation: anim 1s 1s backwards;
+}
+
+.red-btn {
+    background-color: red;
+}
+.green-btn {
+    background-color: green;
+}
+.blue-btn{
+    background-color: blue;
+}
+.aqua-btn{
+    background-color: aqua;
+}
