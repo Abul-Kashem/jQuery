@@ -1,0 +1,41 @@
+/* common styles */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* end of common styles */
+
+.btn {
+    width: 21rem;
+    padding: 1.2rem 2rem;
+    font-size: 2rem;
+    color: #fff;
+    letter-spacing: .1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    animation: anim 1s 1s backwards;
+    margin: 10px;
+}
+
+.down-btn {
+    background-color: red;
+}
+
+.up-btn {
+    background-color: green;
+}
+
+.show-text {
+    font-size: 2rem;
+    color: aquamarine;
+    margin: 10px;
+}
