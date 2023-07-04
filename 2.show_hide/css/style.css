@@ -12,28 +12,9 @@ body {
 }
 
 /* end of common styles */
-
-.box {
-    width: 100px;
-    height: 100px;
-    margin: 20px;
-    
-}
-
-.red {
-    background-color: red;
-    display: none;
-}
-
-.green {
-    background-color: green;
-}
-
-.blue {
-    background-color: blue;
-}
-.aqua{
-    background-color: aqua;
+.show-hide p{
+    color: royalblue;
+    font-size: 2rem;
 }
 
 .btn {
@@ -48,15 +29,9 @@ body {
     animation: anim 1s 1s backwards;
 }
 
-.red-btn {
+.hide-btn {
     background-color: red;
 }
-.green-btn {
+.show-btn {
     background-color: green;
-}
-.blue-btn{
-    background-color: blue;
-}
-.aqua-btn{
-    background-color: aqua;
 }
