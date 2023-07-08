@@ -13,7 +13,7 @@ $(document).ready(function () {
   console.log(radioButton.attr("checked"));
 
   $("input[type=text]").val("Abul Kashem");
- $("input[type=email]").val("kashem@gmail.com");
+  $("input[type=email]").val("kashem@gmail.com");
   $("input[type=range]").val(9);
 
 });
