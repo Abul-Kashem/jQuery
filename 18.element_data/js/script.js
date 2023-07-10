@@ -19,7 +19,8 @@ $(document).ready(function () {
   gallery.data("name", "The Amazing Gallery");
   console.log(gallery.data("name"));  // The Amazing Gallery
 
-
+  var data = $('p:first').data('dataname');
+  console.log(data);
 
 
 });
