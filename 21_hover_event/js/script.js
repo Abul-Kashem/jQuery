@@ -12,8 +12,6 @@ $(document).ready(function () {
     $(this).fadeTo(500, current_opacity - .3);
   });
 
-
-
 });
 
 
